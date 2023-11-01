@@ -5,7 +5,7 @@ The field names in the source collection are upper case while field names in des
 
 Setup:
 - set spring.data.mongodb.uri in spring-reactive-change-stream-example/change-stream-app/src/main/resources/application.properties to MongoDB cluster connection string 
-- e.g. mongodb+srv://<username>:<password>@<cluster>/?retryWrites=true&w=majority
+- e.g. mongodb+srv://[username]:[password]@[cluster]/?retryWrites=true&w=majority
 
 Build:
 - mvn package -Dmaven.test.skip=true
